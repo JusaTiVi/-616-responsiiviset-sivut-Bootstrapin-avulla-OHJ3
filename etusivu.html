@@ -8,26 +8,35 @@
 </head>
 <body>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <span class="navbar-brand">
-            <img src="C:\-616-responsiiviset-sivut-Bootstrapin-avulla-OHJ3-main\cubeweb.png" alt="Logo">
-        </span>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav">
+        <div class="container py-2">
+            <span class="navbar-brand">
+                <img src=".\cubeweb.png" alt="Logo" height="40">
+            </span>
 
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navibar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navibar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="etusivu.html" class="nav-link">etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kriteerit.html" class="nav-link">kriteerit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="osaamisen-arviointi.html" class="nav-link">osaamisen arviointi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tutkinnon-muodostuminen.html" class="nav-link">tutkinnon muodostuminen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tutkinnonosat.html" class="nav-link">tutkinnon osat</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <header>
-        <nav>
-            <li class="nav-item">
-                <a href="etusivu.html" class="nav-link">etusivu</a>
-            </li>
-            <a href="kriteerit.html">kriteerit</a>
-            <a href="osaamisen-arviointi.html">arviointi</a>
-            <a href="tutkinnon-muodostuminen.html">muodostuminen</a>
-            <a href="tutkinnonosat.html">tutkinnon osat</a>
-        </nav>
-    </header>
     <main class="container">
         <section>
             <h1 class="display-1">Tutkinnon suorittaneen osaaminen</h1>
@@ -50,7 +59,6 @@
             <p class="fs-4">Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, että sähkö- ja automaatioalalla toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.</p>
         </section>
     </main>
-    <footer></footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
